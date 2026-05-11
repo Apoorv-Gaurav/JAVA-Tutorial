@@ -20,6 +20,11 @@ public class day2 {
         //------------------
         String col = scan.nextLine();
         System.out.println("Color: "+col);
+
+        String name2 = scan.nextLine();
+        if(name2.isEmpty()){
+            System.out.println("Havent entered name 😁😡");
+        }
         scan.close();
     }
 }
