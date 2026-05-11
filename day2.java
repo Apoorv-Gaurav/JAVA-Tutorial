@@ -22,6 +22,7 @@ public class day2 {
         System.out.println("Color: "+col);
 
         String name2 = scan.nextLine();
+        
         if(name2.isEmpty()){
             System.out.println("Havent entered name 😁😡");
         }
